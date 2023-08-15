@@ -52,7 +52,7 @@ describe('template spec', () => {
     cy.get('#add-to-cart-sauce-labs-backpack').click();
   })
     
-  it('go to cart')
+  it('go to cart', () => { 
     //nagivating to website
     cy.visit('https://www.saucedemo.com/')
     //locating username field and typing username
@@ -64,7 +64,7 @@ describe('template spec', () => {
     //locating cart button and clicking it 
     cy.get ('#shopping_cart_link').click();
   
-  
+  })
 
   
 
